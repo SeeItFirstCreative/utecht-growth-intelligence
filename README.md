@@ -2,13 +2,19 @@
 
 Standalone commercial property & casualty growth intelligence and marketing platform for Utecht Insurance Underwriters.
 
-## V1
+## Current architecture
+- Next.js application on Vercel
+- Supabase PostgreSQL backend
+- Supabase authentication and row-level security
 - Growth Command Center
-- Opportunity Radar
-- Market change signals
-- Southwest Florida territory map
-- Opportunity source attribution
+- Opportunities and market intelligence
+- Territory intelligence
 - Renewal / X-date radar
-- Next Best Action
+- Referral network
+- Campaigns
+- Pipeline
+- Analytics
 
-All current dashboard records are representative sample data for interface development.
+Current market records remain representative while persistent production workflows are connected.
+
+Deployment configuration refreshed: 2026-09-10.
