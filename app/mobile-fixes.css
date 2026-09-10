@@ -1,0 +1,20 @@
+@media (max-width:700px){
+.radar .topOpp{grid-template-columns:78px minmax(0,1fr);gap:12px;align-items:start}
+.radar .score{width:78px;padding-right:10px}
+.radar .score strong{font-size:32px}
+.radar .oppBody{width:auto;min-width:0}
+.radar .oppBody h2{font-size:18px;line-height:1.15}
+.radar .miniOpps{width:100%}
+.radar .mini{display:grid;grid-template-columns:48px minmax(0,1fr) auto 18px;gap:10px;align-items:center;width:100%;padding:14px 0}
+.radar .mini>strong{font-size:24px;align-self:start}
+.radar .mini>div{min-width:0}
+.radar .mini b{font-size:12px;line-height:1.2;white-space:normal;overflow-wrap:normal;word-break:normal}
+.radar .mini span{font-size:10px;line-height:1.25;white-space:normal;overflow-wrap:normal;word-break:normal}
+.radar .mini .xd{display:block!important;max-width:82px;padding:5px 7px;text-align:center;white-space:normal}
+.radar .mini svg{width:16px;flex:none}
+}
+@media (max-width:420px){
+.radar .mini{grid-template-columns:42px minmax(0,1fr) 18px}
+.radar .mini .xd{grid-column:2;justify-self:start;max-width:none;margin-top:4px}
+.radar .mini svg{grid-column:3;grid-row:1/3}
+}
